@@ -1,8 +1,8 @@
-# 🤖 AIOps Agent - Intelligent Operations Assistant
+# AIOps Agent - Intelligent Operations Assistant
 
 An AI-powered operations agent that automatically investigates production issues by analyzing logs and metrics from Google Cloud Platform. Built with a multi-agent architecture for fast, accurate root cause analysis.
 
-## 🎯 What It Does
+##  What It Does
 
 When your application has issues, the AIOps Agent:
 1. **Analyzes** your Cloud Monitoring metrics
@@ -15,7 +15,7 @@ When your application has issues, the AIOps Agent:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Query → Ops Commander (Router) → Investigator (Orchestrator)
@@ -38,7 +38,7 @@ User Query → Ops Commander (Router) → Investigator (Orchestrator)
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 ### Required:
 - **Python 3.9+**
@@ -52,7 +52,7 @@ User Query → Ops Commander (Router) → Investigator (Orchestrator)
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone and Setup
 
@@ -121,7 +121,7 @@ python3 test_aiops_agent.py your-cloud-run-service-name
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### Basic Investigation
 
@@ -183,20 +183,20 @@ python3 test_both_modes.py my-service-name
 ### Analysis Modes
 
 #### Rule-Based Mode (Default)
-- ⚡ **Fast**: 5-7 seconds per investigation
-- 💰 **Free**: No API costs
-- 🎯 **Accurate**: 85-90% for known patterns
-- ✅ **Best for**: Routine issues, high volume
+- **Fast**: 5-7 seconds per investigation
+- **Free**: No API costs
+- **Accurate**: 85-90% for known patterns
+- **Best for**: Routine issues, high volume
 
 #### AI-Powered Mode (Optional)
-- 🤖 **Smart**: 8-12 seconds per investigation
-- 💵 **Low cost**: ~$0.0003 per investigation
-- 🎯 **Accurate**: 90-95% for all patterns
-- ✅ **Best for**: Complex issues, novel patterns
+- **Smart**: 8-12 seconds per investigation
+- **Low cost**: ~$0.0003 per investigation
+- **Accurate**: 90-95% for all patterns
+- **Best for**: Complex issues, novel patterns
 
 ---
 
-## 🧪 Testing with Demo Service
+## Testing with Demo Service
 
 To see the AIOps Agent in action, use our demo service that generates realistic errors:
 
@@ -325,7 +325,7 @@ gcloud projects add-iam-policy-binding YOUR_PROJECT_ID \
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 aiops-agent-final/
@@ -355,13 +355,13 @@ aiops-agent-final/
 
 ---
 
-## 🔒 Security Best Practices
+##  Security Best Practices
 
 ### Credentials
-- ✅ **Never commit** `.env` file (it's in `.gitignore`)
-- ✅ **Use ADC** (Application Default Credentials)
-- ✅ **Rotate API keys** regularly
-- ✅ **Use service accounts** in production
+-  **Never commit** `.env` file (it's in `.gitignore`)
+-  **Use ADC** (Application Default Credentials)
+-  **Rotate API keys** regularly
+-  **Use service accounts** in production
 
 ### IAM Permissions
 Principle of least privilege:
@@ -373,7 +373,7 @@ Principle of least privilege:
 
 ---
 
-## 🚢 Production Deployment
+##  Production Deployment
 
 ### Deploy to Cloud Run
 
@@ -392,17 +392,17 @@ gcloud run deploy aiops-agent \
 
 
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 From production testing:
 
 | Metric | Target | Actual |
 |--------|--------|--------|
-| Investigation Time | < 10s | 6-8s ✅ |
-| Accuracy (known patterns) | > 85% | 90% ✅ |
-| Accuracy (novel patterns) | > 80% | 92% ✅ |
-| Cost per investigation | < $0.01 | $0.0003 ✅ |
-| False positive rate | < 10% | 5% ✅ |
+| Investigation Time | < 10s | 6-8s  |
+| Accuracy (known patterns) | > 85% | 90%  |
+| Accuracy (novel patterns) | > 80% | 92%  |
+| Cost per investigation | < $0.01 | $0.0003  |
+| False positive rate | < 10% | 5%  |
 
 
 
