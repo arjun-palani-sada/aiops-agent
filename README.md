@@ -168,7 +168,7 @@ python3 test_both_modes.py my-service-name
 
 ---
 
-## 🎯 Configuration Options
+##  Configuration Options
 
 ### Environment Variables
 
